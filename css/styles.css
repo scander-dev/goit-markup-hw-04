@@ -288,6 +288,28 @@ a {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	margin-bottom: 12px;
+}
+
+.social-list {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+}
+
+.social-list-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: var(--focused-links-color);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+	background-color: var(--valid-fields-color);
 }
 
 /* Footer */
