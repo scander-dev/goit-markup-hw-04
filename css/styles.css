@@ -206,6 +206,13 @@ a {
 	gap: 24px;
 }
 
+.description-badge {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--light-background-color);
+	border-radius: 4px;
+}
 .description-title {
 	font-weight: 700;
 	font-size: 20px;
@@ -310,6 +317,39 @@ a {
 .social-list-link:hover,
 .social-list-link:focus {
 	background-color: var(--valid-fields-color);
+}
+
+/* Section Customers */
+
+.customers-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.customers-list {
+	display: flex;
+	gap: 24px;
+}
+
+.customers-list-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 168px;
+	height: 88px;
+	border: 1px solid;
+	border-color: var(--helper-text-color);
+	border-radius: 4px;
+}
+
+.customers-list-item:hover,
+.customers-list-item:focus {
+	border-color: var(--button-color);
 }
 
 /* Footer */
