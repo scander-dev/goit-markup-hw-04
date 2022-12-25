@@ -389,6 +389,41 @@ a {
 	margin-top: 16px;
 }
 
+.media {
+}
+
+.media-title {
+	display: flex;
+	justify-content: center;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--background-color);
+	padding-bottom: 16px;
+}
+
+.media-list {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+}
+
+.media-list-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.media-list-link:hover,
+.media-list-link:focus {
+	background-color: var(--valid-fields-color);
+}
+
 /* Стили для портфолио */
 
 .descript {
