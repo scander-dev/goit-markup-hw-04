@@ -147,6 +147,10 @@ a {
 	text-align: center;
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 1440px;
+	height: 603px;
+	margin: 0 auto;
 }
 
 .solution-title {
@@ -212,7 +216,9 @@ a {
 	align-items: center;
 	background-color: var(--light-background-color);
 	border-radius: 4px;
+	margin-bottom: 8px;
 }
+
 .description-title {
 	font-weight: 700;
 	font-size: 20px;
