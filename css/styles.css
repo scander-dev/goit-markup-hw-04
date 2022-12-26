@@ -217,10 +217,11 @@ a {
 	background-color: var(--light-background-color);
 	border-radius: 4px;
 	margin-bottom: 8px;
+	height: 112px;
 }
 
 .description-title {
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -334,7 +335,7 @@ a {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	text-align: center;
-	margin-bottom: 120px;
+	margin-bottom: 72px;
 }
 
 .customers-list {
@@ -342,29 +343,37 @@ a {
 	gap: 24px;
 }
 
-.customers-list-item {
+.customers-list-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 168px;
 	height: 88px;
 	border: 1px solid;
-	border-color: var(--helper-text-color);
+	border-color: currentColor;
 	border-radius: 4px;
+	color: var(--helper-text-color);
 }
 
-.customers-list-item:hover,
-.customers-list-item:focus {
-	border-color: var(--button-color);
+.customers-list-link:hover,
+.customers-list-link:focus {
+	color: var(--button-color);
+}
+
+.customers-list-ikon {
+	fill: currentColor;
 }
 
 /* Footer */
 
 .footer {
+	display: flex;
 	background-color: var(--main-text-color);
 	padding: 100px 0;
 }
-
+.footer-container {
+	display: flex;
+}
 .footer-logo {
 	font-family: "Raleway";
 	font-weight: 800;
@@ -396,17 +405,14 @@ a {
 }
 
 .media {
+	margin-left: 120px;
 }
 
 .media-title {
-	display: flex;
-	justify-content: center;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 0.02em;
 	color: var(--background-color);
-	padding-bottom: 16px;
+	margin-bottom: 16px;
 }
 
 .media-list {
@@ -476,6 +482,16 @@ a {
 .prop {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+.prop-link {
+	display: block;
+}
+
+.prop-link:hover,
+.prop-link:focus {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .proposit {
 	padding: 32px 16px;
 	border: 0.5px solid #f4f4fd;
@@ -488,6 +504,7 @@ a {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	margin-bottom: 8px;
+	color: var (--main-text-color);
 }
 
 .propositions-action {
