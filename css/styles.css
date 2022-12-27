@@ -118,7 +118,7 @@ a {
 }
 
 .header-link .link .current {
-	color: var(--focused-links-color);
+	color: var(--button-color);
 }
 
 .contakts {
@@ -504,7 +504,7 @@ a {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	margin-bottom: 8px;
-	color: var (--main-text-color);
+	color: var(--main-text-color);
 }
 
 .propositions-action {
